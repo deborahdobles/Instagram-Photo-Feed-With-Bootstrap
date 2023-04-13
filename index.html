@@ -1,33 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <title>Instagram Photo Feed With Bootstrap</title>
-  <link rel="stylesheet" type="text/css" href="styles.css" />
-  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
-  <script src="https://kit.fontawesome.com/58ed6220b7.js" crossorigin="anonymous"></script>
-
-</head>
-
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title>Instagram Photo Feed With Bootstrap</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/58ed6220b7.js" crossorigin="anonymous"></script>
+  </head>
 <body>
-
   <nav class="navbar navbar-expand bg-body-tertiary">
     <div class="container-fluid">
-      <h1 class="navbar-brand"><i class="fa-brands fa-instagram"></i> <img
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/120px-Instagram_logo.svg.png">
+      <h1 class="navbar-brand"><i class="fa-brands fa-instagram"></i> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/120px-Instagram_logo.svg.png">
       </h1>
-
       <form class="d-flex" role="search">
-
         <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal">
           Create a new post
         </button>
-
         <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
             <div class="modal-content">
@@ -35,14 +28,12 @@
                 <h1 class="modal-title fs-5 " id="exampleModalLabel">Create a new post</h1>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
-
               <div class="modal-body">
                 <div class="mb-3">
                   <label for="exampleFormControlTextarea1" class="form-label">Caption:</label>
                   <textarea class="form-control text-secondary" id="exampleFormControlTextarea1"
                     rows="3"> Add the caption of your post here</textarea>
                 </div>
-
                 <div class="container text-center">
                   <div class="row justify-content-start">
 
@@ -53,11 +44,9 @@
                     <button class="col-1 border rounded">
                       <i class="fa-solid fa-location-dot"></i>
                     </button>
-
                   </div>
                 </div>
               </div>
-
               <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                 <button type="button" class="btn btn-success">Publish</button>
@@ -66,12 +55,9 @@
           </div>
         </div>
     </div>
-
     <div class="dropdown">
-
       <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i
           class="fa-solid fa-gear"></i></button>
-
       <ul class="dropdown-menu dropdown-menu-end">
         <li><a class="dropdown-item" href="#">Profile</a></li>
         <li><a class="dropdown-item" href="#"> Acessibility</a></li>
@@ -81,10 +67,8 @@
         </li>
         <li><a class="dropdown-item text-danger" href="#">Logout</a></li>
       </ul>
-
     </div>
     </div>
-
     </form>
     </div>
     </div>
@@ -105,63 +89,47 @@
           type="button" role="tab" aria-controls="pills-profile" aria-selected="false">
           <h1 class="navbar-brand"><i class="fa-solid fa-stop"></i></h1>
         </button>
-
       </li>
     </ul>
   </div>
-
   <div>
     <div class="tab-content" id="pills-tabContent">
       <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0" style="margin: 50px; vertical-align: unset;">
-
         <div class="row">
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/7d/d6/3d/7dd63d66cd70a7eda8265a0c0a6e470a.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/37/28/40/3728405a4676c739eb7686bd89ab54e1.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
-
           <div class="col-4">
             <img src="https://i.pinimg.com/736x/de/0b/b4/de0bb4e0448983ce548ad97b33438234.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
         </div>
-
         <div class="row">
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/c3/8d/ac/c38dac34e702f925ac684e243be826f2.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/cf/72/1e/cf721e5587ec0cc7fb871abfc9ccd596.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/10/b7/a1/10b7a14755834876074bfe76906057db.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
         </div>
-
         <div class="row">
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/b0/c7/21/b0c721df98405504bb149c103db84314.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/fc/b6/8e/fcb68e97d5598e2c331a5fc383402cae.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
-
           <div class="col-4">
             <img src="https://i.pinimg.com/564x/32/c1/e7/32c1e73698b1a2ba5fcc93ac4dd619ab.jpg" class="figure-img img-fluid rounded w-100" width="400px" height="400px" alt="...">
           </div>
         </div>
-
       </div>
-
       <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
-        
         <div class="container-fluid">
           <div class="row justify-content-center">
             <div class="col-6">
@@ -170,9 +138,7 @@
                   <h5>The most beautiful place: Cape Verde</h5>
                   <h8>15/04/23</h8>
                 </div>
-
                 <img src="https://i.dailymail.co.uk/1s/2019/02/23/14/10181314-6737167-image-a-1_1550931026392.jpg" class="card-img-top" alt="...">
-
                 <div class="card-body">
                   <b class="card-title">Liked by deborahdobles and 14,800 others</b>
                   <p class="card-text">I am amazed to see how clear the water is. It's a unique place to be</p>
@@ -180,9 +146,7 @@
               </div>
             </div>
           </div>
-
           <br>
-
           <div class="row justify-content-center">
             <div class="col-6">
               <div class="card" style="width: 30rem">
@@ -190,9 +154,7 @@
                   <h5>HOME: Costa Rica!!!</h5>
                   <h8>4/10/22</h8>
                 </div>
-
                 <img src="https://www.costacruceros.com/content/dam/costa/costa-magazine/articles-magazine/beaches/costa-rica-beaches/costa-rica-spiagge_m.jpg.image.694.390.low.jpg" class="card-img-top" alt="...">
-
                 <div class="card-body">
                   <b class="card-title">4592 likes</b>
                   <p class="card-text">Here's an appreciation post to my country because it's so unique and adventurous!</p>
@@ -200,9 +162,7 @@
               </div>
             </div>
           </div>
-
           <br>
-
           <div class="row justify-content-center">
             <div class="col-6">
               <div class="card" style="width: 30rem">
@@ -210,9 +170,7 @@
                   <h5>Finally attending university!</h5>
                   <h8>12/12/21</h8>
                 </div>
-
                 <img src="https://gsb.hse.ru/data/2021/03/22/1384625338/3869634a21ac13f3a9826c830dc909f6.jpg" class="card-img-top" alt="...">
-
                 <div class="card-body">
                   <b class="card-title">Liked by 4Geeks and 1,237 others</b>
                   <p class="card-text">More than thrilled to announce that I will be attending to RUG in Artificial Intelligence</p>
@@ -220,15 +178,10 @@
               </div>
             </div>
           </div>
-        
-
         </div>
       </div>
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
-
 </body>
-
 </html>
